@@ -1,0 +1,43 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and build files
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local datasets
+data/
+
+# IDE and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Machine-learning outputs and experiment artifacts
+logs/
+outputs/
+checkpoints/
+models/
+*.h5
+*.keras
+*.pth
+*.pt
+
+# Temporary files
+*.tmp
+*.temp
+*.log
